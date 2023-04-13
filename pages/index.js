@@ -1,13 +1,23 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import img from '../public/c2560px-join-or-die.png'
-import styles from '../styles/Home.module.css'
 
+// import Image from 'next/image'
+// import img from '../public/Join-or-Die-no-frame-1920.png'
+
+// import logo from '../public/NON-PARTISAN-LOGO.png'
+
+import styles from '../styles/Home.module.css'
+import Styles from '../styles/Home.module.css'
 export default function Home() {
+  
+
   return (
-   <>
-    <h1>Home page</h1>
-    <Image src={img} placeholder='blur' alt="Join or Die" width={2560} height={1705} />
-   </>
+    <>
+      {/* <div className={styles.brand}><Image src={logo} alt="LOGO" /></div>
+      <div className={styles.hero}><Image src={img} alt="Join or Die" /></div> */}
+     
+     <div>
+        <video className={styles.container} src={require('/public/1.mp4')} autoPlay muted controls />
+     </div>
+    </>
+   
   )
-}
+} 
