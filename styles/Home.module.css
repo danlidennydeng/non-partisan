@@ -178,6 +178,7 @@
   padding: 0.5vw;
   width: 15%;
   z-index: 1;
-
+  background-color: #ffe6ff; 
+  /* light purple */
   position: absolute;
 }
