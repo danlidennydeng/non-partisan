@@ -1,4 +1,4 @@
-/* .container {
+.container {
   padding: 0 2rem;
 }
 
@@ -126,36 +126,9 @@
   .logo img {
     filter: invert(1);
   }
-} */
-
-
-
-/* 
-.brand {
-  padding: 0.5vw;
-  width: 10%;
-
-  background-color: yellow;
-  z-index: 1;
 }
 
-.hero {
-  
-  width: 80%;
-  
- 
-  background-color: purple;
-  border: solid white 1px;
 
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-}
-
-.container {
-  width: 98%;
-} */
 
 
 .collection {
@@ -181,4 +154,139 @@
   background-color: #ffe6ff; 
   /* light purple */
   position: absolute;
+}
+
+.snakebox {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  /* height: calc(100vw * 0.5625); */
+  height: calc(100vw * 0.4287);
+  /* background-color: pink; */
+  border: 1px solid red;
+  overflow: hidden;
+}
+
+.snake1 {
+
+  position: relative;
+  top: 0vw;
+  left: 60vw;
+  width: 39.91vw;
+  height: 17.53vw;
+  /* border: 1px solid #73AD21; */
+  background-image: url("../public/snake1.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 39.91vw 17.53vw;
+  z-index: 11;
+}
+
+
+.snake2 {
+
+  position: relative;
+  top: -15vw;
+  left: 4vw;
+  width: 8.74vw;
+  height: 19.41vw;
+  /* border: 1px solid #73AD21; */
+  background-image: url("../public/snake2.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 8.74vw 19.41vw;
+  z-index: 12;
+}
+
+
+.snake3 {
+
+  position: relative;
+  top: -36vw;
+  left: 20vw;
+  width: 16.29vw;
+  height: 13.11vw;
+  /* border: 1px solid #73AD21; */
+  background-image: url("../public/snake3.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 16.29vw 13.11vw;
+  z-index: 13;
+}
+
+.snake4 {
+
+  position: relative;
+  top: -27vw;
+  left: 75vw;
+  width: 24.25vw;
+  height: 17.74vw;
+  /* border: 1px solid #73AD21; */
+  background-image: url("../public/snake4.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 24.25vw 17.74vw;
+  z-index: 14;
+}
+
+
+.snake5 {
+
+  position: relative;
+  top: -68vw;
+  left: 30vw;
+  width: 16.55vw;
+  height: 17.74vw;
+  /* border: 1px solid #73AD21; */
+  background-image: url("../public/snake5.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 16.55vw 17.74vw;
+  z-index: 15;
+}
+
+.snake6 {
+  position: relative;
+  top: -58vw;
+  left: 70vw;
+  width: 22.01vw;
+  height: 15.19vw;
+  /* border: 1px solid bisque; */
+  background-image: url("../public/snake6.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 22.01vw 15.19vw;
+  z-index: 16;
+}
+
+
+.snake7 {
+
+  position: relative;
+  top: -70vw;
+  left: 1vw;
+  width: 14.2vw;
+  height: 11.29vw;
+  /* border: 1px solid #73AD21; */
+  background-image: url("../public/snake7.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 14.1vw 11.29vw;
+  z-index: 17;
+}
+
+
+.snake8 {
+
+  position: relative;
+  top: -97vw;
+  left: 60vw;
+  width: 9.37vw;
+  height: 27.21vw;
+  /* border: 1px solid #73AD21; */
+  background-image: url("../public/snake8.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 9.37vw 27.21vw;
+  z-index: 18;
 }
