@@ -1,6 +1,7 @@
 import React, {useRef} from 'react';
 import { motion } from "framer-motion";
 import styles from '../styles/Home.module.css';
+import Instruction from '../Components/Instruction';
 
 function Snake() {
   const parentRef = useRef();
@@ -18,6 +19,7 @@ function Snake() {
       <motion.div className={styles.snake6} drag dragConstraints={parentRef}></motion.div>
       <motion.div className={styles.snake7} drag dragConstraints={parentRef}></motion.div>
       <motion.div className={styles.snake8} drag dragConstraints={parentRef}></motion.div>
+      <Instruction />
     </div>
     
   )

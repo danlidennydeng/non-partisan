@@ -156,14 +156,18 @@
   position: absolute;
 }
 
+/* Snake.js component below */
+
 .snakebox {
-  margin: 0px;
+  margin: auto;
+  position: absolute;
+  top: 10px;
   padding: 0px;
   width: 100vw;
   /* height: calc(100vw * 0.5625); */
   height: calc(100vw * 0.4287);
   /* background-color: pink; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
   overflow: hidden;
 }
 
@@ -172,13 +176,13 @@
   position: relative;
   top: 0vw;
   left: 60vw;
-  width: 39.91vw;
-  height: 17.53vw;
+  width: 35.92vw;
+  height: 15.78vw;
   /* border: 1px solid #73AD21; */
   background-image: url("../public/snake1.png");
   background-repeat: no-repeat;
   background-position: right top;
-  background-size: 39.91vw 17.53vw;
+  background-size: 35.92vw 15.78vw;
   z-index: 11;
 }
 
@@ -186,15 +190,15 @@
 .snake2 {
 
   position: relative;
-  top: -15vw;
+  top: -5vw;
   left: 4vw;
-  width: 8.74vw;
-  height: 19.41vw;
+  width: 7.87vw;
+  height: 17.47vw;
   /* border: 1px solid #73AD21; */
   background-image: url("../public/snake2.png");
   background-repeat: no-repeat;
   background-position: right top;
-  background-size: 8.74vw 19.41vw;
+  background-size: 7.87vw 17.47vw;
   z-index: 12;
 }
 
@@ -202,15 +206,15 @@
 .snake3 {
 
   position: relative;
-  top: -36vw;
+  top: -25vw;
   left: 20vw;
-  width: 16.29vw;
-  height: 13.11vw;
+  width: 14.66vw;
+  height: 11.80vw;
   /* border: 1px solid #73AD21; */
   background-image: url("../public/snake3.png");
   background-repeat: no-repeat;
   background-position: right top;
-  background-size: 16.29vw 13.11vw;
+  background-size: 14.66vw 11.80vw;
   z-index: 13;
 }
 
@@ -218,14 +222,14 @@
 
   position: relative;
   top: -27vw;
-  left: 75vw;
-  width: 24.25vw;
-  height: 17.74vw;
+  left: 40vw;
+  width: 21.82vw;
+  height: 15.97vw;
   /* border: 1px solid #73AD21; */
   background-image: url("../public/snake4.png");
   background-repeat: no-repeat;
   background-position: right top;
-  background-size: 24.25vw 17.74vw;
+  background-size: 21.82vw 15.97vw;
   z-index: 14;
 }
 
@@ -235,27 +239,27 @@
   position: relative;
   top: -68vw;
   left: 30vw;
-  width: 16.55vw;
-  height: 17.74vw;
+  width: 14.89vw;
+  height: 15.97vw;
   /* border: 1px solid #73AD21; */
   background-image: url("../public/snake5.png");
   background-repeat: no-repeat;
   background-position: right top;
-  background-size: 16.55vw 17.74vw;
+  background-size: 14.89vw 15.97vw;
   z-index: 15;
 }
 
 .snake6 {
   position: relative;
-  top: -58vw;
+  top: -54vw;
   left: 70vw;
-  width: 22.01vw;
-  height: 15.19vw;
+  width: 19.81vw;
+  height: 13.67vw;
   /* border: 1px solid bisque; */
   background-image: url("../public/snake6.png");
   background-repeat: no-repeat;
   background-position: right top;
-  background-size: 22.01vw 15.19vw;
+  background-size: 19.81vw 13.67vw;
   z-index: 16;
 }
 
@@ -263,15 +267,15 @@
 .snake7 {
 
   position: relative;
-  top: -70vw;
-  left: 1vw;
-  width: 14.2vw;
-  height: 11.29vw;
+  top: -56vw;
+  left: -1vw;
+  width: 12.69vw;
+  height: 10.16vw;
   /* border: 1px solid #73AD21; */
   background-image: url("../public/snake7.png");
   background-repeat: no-repeat;
   background-position: right top;
-  background-size: 14.1vw 11.29vw;
+  background-size: 12.69vw 10.16vw;
   z-index: 17;
 }
 
@@ -281,12 +285,150 @@
   position: relative;
   top: -97vw;
   left: 60vw;
-  width: 9.37vw;
-  height: 27.21vw;
+  width: 8.43vw;
+  height: 24.49vw;
   /* border: 1px solid #73AD21; */
   background-image: url("../public/snake8.png");
   background-repeat: no-repeat;
   background-position: right top;
-  background-size: 9.37vw 27.21vw;
+  background-size: 8.43vw 24.49vw;
   z-index: 18;
+}
+
+.instructionBox {
+  position: absolute;
+  /* top:20vh; */
+  right: 1vw;
+  bottom: 10px;
+  margin: auto;
+
+  width: 30vw;
+  height: 8vw;
+
+  color: purple;
+  padding: 0.5vw;
+  font-size: 1.5vw;
+
+  background: white 0.9;
+  border-radius: 1vw;
+
+  /* -webkit-box-shadow:18px 15px 27px 10px rgba(255,189,243,0.8);
+  -moz-box-shadow: 18px 15px 27px 10px rgba(255,189,243,0.8);
+  box-shadow: 18px 15px 27px 10px rgba(255,189,243,0.8); */
+  
+  backdrop-filter: blur(4.3px);
+  -webkit-backdrop-filter: blur(4.3px);
+  border: 0.5vw solid black;
+  z-index: 29;
+
+  /* animation: disappear 5s forwards;
+  animation-delay: 10s; */
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    z-index: -1;
+  }
+}
+
+/* Logo.js components below */
+
+/* .triangleContainer {
+  margin-top: 5px;
+  width: 200px;
+  height: 50px;
+  position: relative;
+
+  z-index: 30;
+}
+
+.redTriangle {
+  position: absolute;
+  left: 0;
+  top: -50px;
+  
+  width: 100px;
+  height: 100px; 
+  clip-path: polygon(50% 50%, 0% 100%, 100% 100%);
+  background-color: red;
+
+  animation: merge-left 2s forwards;
+}
+
+.blueTriangle {
+  position: absolute;
+  right: 10px;
+  top: -50px;
+
+  width: 100px;
+  height: 100px;
+  clip-path: polygon(50% 50%, 0% 100%, 100% 100%);
+  background-color: blue;
+  z-index: 1;
+  animation: merge-right 4s forwards;
+  mix-blend-mode: screen;
+} */
+
+.logoBox {
+  position: absolute;
+  top: .5vw;
+  left: .5vw;
+  width: 9vw;
+  height: 9vw;
+
+  background-image: url("../public/logo-200c.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+
+  background-size: cover;
+}
+
+.incText {
+  width: 15vw;
+  height: 8vw;
+  color: purple;
+  text-align: left;
+  vertical-align: text-bottom;
+  position: relative;
+  
+  top: .1vw;
+  left: 11vw;
+  font-size: 1.9vw;
+  margin: 1vw;
+  padding: 1vw;
+  border-left: 1vw solid black;
+  /* background-color: yellow; */
+  z-index: 29;
+}
+
+.smallPrint {
+  font-size: 1rem;
+  /* text-align: center !important; does not work */
+  vertical-align: top;
+ 
+  
+}
+
+
+@keyframes merge-left {
+  from {
+    left: 0;
+  }
+  to {
+    left: 25%;
+  }
+}
+
+@keyframes merge-right {
+  from {
+    right: 0;
+  }
+  to {
+    right: 25%;
+  }
 }
