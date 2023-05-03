@@ -251,7 +251,7 @@
 
 .snake6 {
   position: relative;
-  top: -54vw;
+  top: -56vw;
   left: 70vw;
   width: 19.81vw;
   height: 13.67vw;
@@ -299,15 +299,15 @@
   position: absolute;
   /* top:20vh; */
   right: 1vw;
-  bottom: 10px;
-  margin: auto;
+  bottom: .1vw;
+  margin: 0;
 
-  width: 30vw;
-  height: 8vw;
+  width: 15vw;
+  height: 25vw;
 
   color: purple;
   padding: 0.5vw;
-  font-size: 1.5vw;
+  font-size: 2vw;
 
   background: white 0.9;
   border-radius: 1vw;
