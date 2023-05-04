@@ -206,8 +206,8 @@
 .snake3 {
 
   position: relative;
-  top: -25vw;
-  left: 20vw;
+  top: -2vw;
+  left: 45vw;
   width: 14.66vw;
   height: 11.80vw;
   /* border: 1px solid #73AD21; */
@@ -221,8 +221,8 @@
 .snake4 {
 
   position: relative;
-  top: -27vw;
-  left: 40vw;
+  top: -25vw;
+  left: 20vw;
   width: 21.82vw;
   height: 15.97vw;
   /* border: 1px solid #73AD21; */
@@ -283,8 +283,8 @@
 .snake8 {
 
   position: relative;
-  top: -97vw;
-  left: 60vw;
+  top: -105vw;
+  left: 45vw;
   width: 8.43vw;
   height: 24.49vw;
   /* border: 1px solid #73AD21; */
@@ -298,15 +298,20 @@
 .instructionBox {
   position: absolute;
   /* top:20vh; */
-  right: 1vw;
-  bottom: .1vw;
+  right: 33vw;
+  bottom: 1vw;
   margin: 0;
 
-  width: 15vw;
-  height: 25vw;
+  width: 16vw;
+  height: 31vw;
+
+  background-image: url("../public/iphone-frame.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
 
   color: purple;
-  padding: 0.5vw;
+  padding: 1.5vw;
   font-size: 2vw;
 
   background: white 0.9;
@@ -318,14 +323,27 @@
   
   backdrop-filter: blur(4.3px);
   -webkit-backdrop-filter: blur(4.3px);
-  border: 0.5vw solid black;
+  /* border: 0.5vw solid black; */
   z-index: 29;
-
-  /* animation: disappear 5s forwards;
-  animation-delay: 10s; */
+  
+  animation: 
+    rotation 5s 10s forwards,
+    BeGone 1s 17s forwards;
 }
 
-@keyframes disappear {
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg);
+    transform-origin: 0% 100%;
+    
+  }
+  
+}
+
+@keyframes BeGone {
   0% {
     opacity: 1;
   }
@@ -335,6 +353,17 @@
     z-index: -1;
   }
 }
+
+/* @keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    z-index: -1;
+  }
+} */
 
 /* Logo.js components below */
 
@@ -381,7 +410,7 @@
   width: 9vw;
   height: 9vw;
 
-  background-image: url("../public/logo-200c.png");
+  background-image: url("../public/logo.svg");
   background-repeat: no-repeat;
   background-position: right top;
 
@@ -389,7 +418,7 @@
 }
 
 .incText {
-  width: 15vw;
+  width: 20vw;
   height: 8vw;
   color: purple;
   text-align: left;
@@ -406,16 +435,11 @@
   z-index: 29;
 }
 
-.smallPrint {
-  font-size: 1rem;
-  /* text-align: center !important; does not work */
-  vertical-align: top;
- 
-  
-}
 
 
-@keyframes merge-left {
+
+
+/* @keyframes merge-left {
   from {
     left: 0;
   }
@@ -431,4 +455,4 @@
   to {
     right: 25%;
   }
-}
+} */
