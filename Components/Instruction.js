@@ -1,9 +1,9 @@
-import React, {useRef} from 'react';
+import React from 'react';
 // import { motion } from "framer-motion";
 import styles from '../styles/Home.module.css';
 
 function Instruction() {
-  const parentRef = useRef();
+
 
   return (
     

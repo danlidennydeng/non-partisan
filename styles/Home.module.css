@@ -129,38 +129,12 @@
 }
 
 
-
-
-.collection {
-  color: black;
-  background-color: #ffe6ff; 
-  /* light purple */
-
-  border: solid black 1px;
-}
-
-.collection:hover {
-  color: white;
-  background-color: #800080; 
-  /* purple   */
-
-  border: solid black 1px;
-}
-
-.brand {
-  padding: 0.5vw;
-  width: 15%;
-  z-index: 1;
-  background-color: #ffe6ff; 
-  /* light purple */
-  position: absolute;
-}
-
 /* Snake.js component below */
 
 .snakeBox {
   /* margin: auto; */
-  position: absolute;
+  position: static;
+  
   top: 1vw;
   padding: 1vw;
   width: 100vw;
@@ -296,10 +270,11 @@
 }
 
 .instructionBox {
-  position: absolute;
+  position: relative;
   /* top:20vh; */
-  right: 33vw;
-  bottom: 1vw;
+  
+  top: -110vw;
+  left: 60vw;
   margin: 0;
 
   width: 16vw;
@@ -326,9 +301,9 @@
   /* border: 0.5vw solid black; */
   z-index: 29;
   
-  animation: 
+  /* animation: 
     rotation 5s 10s forwards,
-    BeGone 1s 17s forwards;
+    BeGone 1s 17s forwards; */
 }
 
 @keyframes rotation {
@@ -373,7 +348,7 @@
   width: 20vw;
   height: 8vw;
   color: purple;
-  text-align: left;
+  text-align: left;float: left;
   vertical-align: text-bottom;
   position: relative;
   
@@ -385,4 +360,16 @@
   border-left: 1vw solid black;
   /* background-color: yellow; */
   z-index: 29;
+}
+
+.videoBox {
+  position: absolute;
+  display: block;
+
+  
+  
+  width: 100vw;  
+
+  border: solid 4px black;
+  background-color: antiquewhite;
 }
