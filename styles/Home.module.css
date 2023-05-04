@@ -158,15 +158,15 @@
 
 /* Snake.js component below */
 
-.snakebox {
-  margin: auto;
+.snakeBox {
+  /* margin: auto; */
   position: absolute;
-  top: 10px;
-  padding: 0px;
+  top: 1vw;
+  padding: 1vw;
   width: 100vw;
-  /* height: calc(100vw * 0.5625); */
-  height: calc(100vw * 0.4287);
-  /* background-color: pink; */
+  height: calc(100vw * 0.5625);
+  /* height: calc(100vw * 0.4287);
+  background-color: pink; */
   /* border: 1px solid red; */
   overflow: hidden;
 }
@@ -174,8 +174,8 @@
 .snake1 {
 
   position: relative;
-  top: 0vw;
-  left: 60vw;
+  top: -5vw;
+  left: 70vw;
   width: 35.92vw;
   height: 15.78vw;
   /* border: 1px solid #73AD21; */
@@ -322,7 +322,7 @@
   box-shadow: 18px 15px 27px 10px rgba(255,189,243,0.8); */
   
   backdrop-filter: blur(4.3px);
-  -webkit-backdrop-filter: blur(4.3px);
+  /* -webkit-backdrop-filter: blur(4.3px); */
   /* border: 0.5vw solid black; */
   z-index: 29;
   
@@ -354,54 +354,6 @@
   }
 }
 
-/* @keyframes disappear {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    display: none;
-    z-index: -1;
-  }
-} */
-
-/* Logo.js components below */
-
-/* .triangleContainer {
-  margin-top: 5px;
-  width: 200px;
-  height: 50px;
-  position: relative;
-
-  z-index: 30;
-}
-
-.redTriangle {
-  position: absolute;
-  left: 0;
-  top: -50px;
-  
-  width: 100px;
-  height: 100px; 
-  clip-path: polygon(50% 50%, 0% 100%, 100% 100%);
-  background-color: red;
-
-  animation: merge-left 2s forwards;
-}
-
-.blueTriangle {
-  position: absolute;
-  right: 10px;
-  top: -50px;
-
-  width: 100px;
-  height: 100px;
-  clip-path: polygon(50% 50%, 0% 100%, 100% 100%);
-  background-color: blue;
-  z-index: 1;
-  animation: merge-right 4s forwards;
-  mix-blend-mode: screen;
-} */
 
 .logoBox {
   position: absolute;
@@ -434,25 +386,3 @@
   /* background-color: yellow; */
   z-index: 29;
 }
-
-
-
-
-
-/* @keyframes merge-left {
-  from {
-    left: 0;
-  }
-  to {
-    left: 25%;
-  }
-}
-
-@keyframes merge-right {
-  from {
-    right: 0;
-  }
-  to {
-    right: 25%;
-  }
-} */

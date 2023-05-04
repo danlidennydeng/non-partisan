@@ -9,7 +9,7 @@ function Snake() {
   return (
     
 
-    <div className={styles.snakebox} ref={parentRef}>
+    <div className={styles.snakeBox} ref={parentRef}>
     
       <motion.div className={styles.snake1} drag dragConstraints={parentRef}></motion.div>
       <motion.div className={styles.snake2} drag dragConstraints={parentRef}></motion.div>
