@@ -132,16 +132,17 @@
 /* Snake.js component below */
 
 .snakeBox {
-  /* margin: auto; */
+  margin: auto;
   position: static;
   
   top: 1vw;
   padding: 1vw;
+
   width: 100vw;
   height: calc(100vw * 0.5625);
-  /* height: calc(100vw * 0.4287);
-  background-color: pink; */
-  /* border: 1px solid red; */
+  /* height: calc(100vw * 0.4287); */
+  background-color: peachpuff; 
+  border: 0.5vw solid black;
   overflow: hidden;
 }
 
@@ -149,7 +150,7 @@
 
   position: relative;
   top: -5vw;
-  left: 70vw;
+  left: 40vw;
   width: 35.92vw;
   height: 15.78vw;
   /* border: 1px solid #73AD21; */
@@ -158,6 +159,7 @@
   background-position: right top;
   background-size: 35.92vw 15.78vw;
   z-index: 11;
+  overflow: hidden;
 }
 
 
@@ -174,14 +176,15 @@
   background-position: right top;
   background-size: 7.87vw 17.47vw;
   z-index: 12;
+  overflow: hidden;
 }
 
 
 .snake3 {
 
   position: relative;
-  top: -2vw;
-  left: 45vw;
+  top: -1vw;
+  left: 50vw;
   width: 14.66vw;
   height: 11.80vw;
   /* border: 1px solid #73AD21; */
@@ -190,6 +193,7 @@
   background-position: right top;
   background-size: 14.66vw 11.80vw;
   z-index: 13;
+  overflow: hidden;
 }
 
 .snake4 {
@@ -205,6 +209,7 @@
   background-position: right top;
   background-size: 21.82vw 15.97vw;
   z-index: 14;
+  overflow: hidden;
 }
 
 
@@ -221,12 +226,13 @@
   background-position: right top;
   background-size: 14.89vw 15.97vw;
   z-index: 15;
+  overflow: hidden;
 }
 
 .snake6 {
   position: relative;
   top: -56vw;
-  left: 70vw;
+  left: 80vw;
   width: 19.81vw;
   height: 13.67vw;
   /* border: 1px solid bisque; */
@@ -235,6 +241,7 @@
   background-position: right top;
   background-size: 19.81vw 13.67vw;
   z-index: 16;
+  overflow: hidden;
 }
 
 
@@ -251,6 +258,7 @@
   background-position: right top;
   background-size: 12.69vw 10.16vw;
   z-index: 17;
+  overflow: hidden;
 }
 
 
@@ -267,6 +275,9 @@
   background-position: right top;
   background-size: 8.43vw 24.49vw;
   z-index: 18;
+  overflow: hidden;
+
+  
 }
 
 .instructionBox {
@@ -301,9 +312,9 @@
   /* border: 0.5vw solid black; */
   z-index: 29;
   
-  /* animation: 
+  animation: 
     rotation 5s 10s forwards,
-    BeGone 1s 17s forwards; */
+    BeGone 1s 17s forwards;
 }
 
 @keyframes rotation {
@@ -331,7 +342,7 @@
 
 
 .logoBox {
-  position: absolute;
+  position: static;
   top: .5vw;
   left: .5vw;
   width: 9vw;
@@ -345,14 +356,15 @@
 }
 
 .incText {
+
   width: 20vw;
   height: 8vw;
   color: purple;
   text-align: left;float: left;
   vertical-align: text-bottom;
-  position: relative;
-  
-  top: .1vw;
+
+  position: relative;  
+  top: -10vw;
   left: 11vw;
   font-size: 1.9vw;
   margin: 1vw;
@@ -363,9 +375,9 @@
 }
 
 .videoBox {
-  position: absolute;
+  position: static;
   display: block;
-
+  margin: auto;
   
   
   width: 100vw;  

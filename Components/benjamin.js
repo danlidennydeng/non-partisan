@@ -9,7 +9,7 @@ export default function Benjamin() {
     
      
      <div>
-        <video className={styles.videoBox} src={require('/public/1.mp4')} autoPlay muted controls />
+        <video className={styles.videoBox} src={require('/public/1.mp4')} controls />
      </div>
    
   )

@@ -7,7 +7,7 @@ export default function Index2() {
     <>
     <div>
     <div>
-      <Logo />
+    
       <Snake />
       
       </div>

@@ -11,7 +11,7 @@ function Logo() {
    <div  className={styles.logoBox}></div>
 
    <div  className={styles.incText}>
-      Non-Partisan<br /> Alliance<br /> Inc.
+      Non-Partisan<br /> Alliance Inc.<br />(Non-Profit)<br /> 
 
    </div>
 
