@@ -382,9 +382,86 @@
   position: static;
   margin: 0;
   width: 100vw;
-  height: 100vh;
-  background-color: bisque;
+  height: calc(100vw * 0.5625);
+  /* height: 100vh; */
+  background-color: white;
   border: 0.5vw solid black;
+}
+
+.card1 {
+  position: relative;
+  margin: 0;
+  
+  top: 1vw;
+  left: 1vw;
+  width: 30vw;
+  height: 30vw;
+
+  color: white; 
+  text-align: center;
+  
+  font-size: 2.5vw;
+  padding-top: 1vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 1vw;
+}
+.card1:hover {
+  z-index: 2;;
+}
+
+.card2 {
+  position: relative;
+  margin: 0;
+
+  top: -29vw;
+  left: 34vw;
+
+  width: 30vw;
+  height: 30vw;
+
+  color: black; 
+  text-align: center;
+  
+  font-size: 2.5vw;
+  padding-top: 8vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 1vw;
+}
+
+.card2:hover {
+  z-index: 3;
+}
+
+
+.card3 {
+  position: relative;
+  margin: 0;
+
+  top: -59vw;
+  left: 67vw;
+
+  width: 30vw;
+  height: 30vw;
+
+  color: white; 
+  text-align: center;
+  
+  font-size: 2.5vw;
+  padding-top: 10vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 1vw;
 }
 
 .videoBox {
