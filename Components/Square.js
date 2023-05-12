@@ -9,8 +9,21 @@ function Square() {
     
 
    <div className={styles.whoweareBox}>
-    <div className={styles.square1}>Non-Partisan Alliance Inc. is a non-profit organization registered in the state of Delaware, and operates exclusively within the U.S.A.</div>
-    <div className={styles.square2}>We are establishing a clean and professional online political discussion forum...</div>
+    <div className={styles.square1}>
+      <ul>Non-Partisan Alliance Inc.
+        <p></p>
+        <li>non-profit</li> 
+        <li>registered in Delaware</li> 
+        <li>operates in U.S.A.</li>
+        </ul>
+    </div>
+    <div className={styles.square2}>
+      <ul>We are establishing...
+        <p></p>
+        <li>a clean and professional</li>
+        <li>online political discussion forum</li>
+        </ul>
+        </div>
     
    </div>
     
