@@ -10,7 +10,7 @@ function Square() {
 
    <div className={styles.whoweareBox}>
     <div className={styles.square1}>
-      <ul>Non-Partisan Alliance Inc.
+      <ul>Non-Partisan Alliance
         <p></p>
         <li>non-profit</li> 
         <li>registered in Delaware</li> 
@@ -20,8 +20,9 @@ function Square() {
     <div className={styles.square2}>
       <ul>We are establishing...
         <p></p>
-        <li>a clean and professional</li>
-        <li>online political discussion forum</li>
+        <li>a clean, professional</li>
+        <li>political discussion</li>
+        <li>online forum</li>
         </ul>
         </div>
     
