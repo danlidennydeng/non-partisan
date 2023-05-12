@@ -139,7 +139,8 @@
   padding: 1vw;
 
   width: 100vw;
-  height: calc(100vw * 0.5625);
+  height: 56.25vw;
+  /* height: calc(100vw * 0.5625); */
   /* height: calc(100vw * 0.4287); */
   /* background-color: peachpuff;  */
   background-color: black;
@@ -154,7 +155,7 @@
 
   position: relative;
   top: -5vw;
-  left: 40vw;
+  left: 57vw;
   width: 35.92vw;
   height: 15.78vw;
   /* border: 1px solid #73AD21; */
@@ -364,7 +365,7 @@
   width: 20vw;
   height: 8vw;
   color: purple;
-  text-align: left;float: left;
+  text-align: left;
   vertical-align: text-bottom;
 
   position: relative;  
@@ -382,8 +383,9 @@
   position: static;
   margin: 0;
   width: 100vw;
-  /* height: calc(100vw * 0.5625); */
+  height: 73vw;
   /* height: 100vh; */
+
   background-color: white;
   border: 0.5vw solid black;
 }
@@ -412,7 +414,6 @@
 
 .square2 {
   position: relative;
-  position: relative;
   margin: 0;
   
   top: -43vw;
@@ -431,6 +432,44 @@
   background-color: white;
   border: 1px solid black;
   border-radius: 1vw;
+}
+
+.square3 {
+  position: relative;
+  margin: auto;
+  
+  top: -40vw;
+  left: 0vw;
+  width: 93vw;
+  height: 20vw;
+
+  color: black; 
+  text-align: center;
+  
+  font-size: 6vw;
+  padding-top: 3vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 1vw;
+}
+
+.emailText {
+  font-size: 3vw;
+}
+.testimonialBox {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
+.testimonialBox > div {
+  margin: 1.2vw;
+  background-color: aqua;
+  width: 30vw;
+  height: 30vw;
 }
 
 .whoweareBox {
@@ -529,4 +568,13 @@
 
   border: solid 4px black;
   background-color: antiquewhite;
+}
+
+@media only screen and (max-width: 600px) {
+  .testimonialBox > div {
+    margin: 1.2vw;
+    background-color: white;
+    width: 100vw;
+    height: 100vw;
+  } 
 }
