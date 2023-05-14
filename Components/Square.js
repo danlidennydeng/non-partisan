@@ -1,6 +1,7 @@
 import React from 'react';
 // import { motion } from "framer-motion";
 import styles from '../styles/Home.module.css';
+import Logo from '../Components/Logo';
 
 function Square() {
 
@@ -10,12 +11,13 @@ function Square() {
 
    <div className={styles.squareBox}>
     <div className={styles.square1}>
-      <p>Non-Partisan<br /> Alliance Inc.</p>
+      <div className={styles.logoPosition}>
+        <Logo />
+      </div>
         
-        <p>non-profit organization<br />
         registered in State of Delaware<br /> 
         operates exclusively in U.S.A.
-        </p>
+      
     </div>
     <div className={styles.square2}>
     <p>We are establishing...</p>

@@ -301,7 +301,7 @@
   background-position: right top;
   background-size: cover;
 
-  color: purple;
+  color: white;
   padding: 1.5vw;
   font-size: 2vw;
 
@@ -374,7 +374,7 @@
   font-size: 1.9vw;
   margin: 1vw;
   padding: 1vw;
-  border-left: 1vw solid black;
+  border-left: 1vw solid white;
   /* background-color: yellow; */
   z-index: 29;
 }
@@ -403,13 +403,19 @@
   text-align: left;
   
   font-size: 4vw;
-  padding-top: 0.5vw;
-  padding-left: 1vw;
-  padding-right: 1vw;
+  padding-top: 0vw;
+  padding-left: 3vw;
+  padding-right: 0vw;
 
   background-color: black;
-  border: 1px solid white;
+  border: 0.5vw solid white;
   border-radius: 1vw;
+}
+
+.logoPosition {
+  position: relative;
+
+  padding: 2vw;
 }
 
 .square2 {
@@ -426,11 +432,11 @@
   
   font-size: 4vw;
   padding-top: 0.5vw;
-  padding-left: 1vw;
-  padding-right: 1vw;
+  padding-left: 3vw;
+  padding-right: 0vw;
 
   background-color: black;
-  border: 1px solid white;
+  border: 0.5vw solid white;
   border-radius: 1vw;
 }
 
@@ -452,7 +458,7 @@
   padding-right: 1vw;
 
   background-color: black;
-  border: 1px solid black;
+  border: 0.5vw solid black;
   border-radius: 1vw;
 }
 
