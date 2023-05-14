@@ -386,7 +386,7 @@
   height: 73vw;
   /* height: 100vh; */
 
-  background-color: white;
+  background-color: black;
   border: 0.5vw solid black;
 }
 
@@ -399,7 +399,7 @@
   width: 45vw;
   height: 45vw;
 
-  color: black; 
+  color: white; 
   text-align: left;
   
   font-size: 4vw;
@@ -407,8 +407,8 @@
   padding-left: 1vw;
   padding-right: 1vw;
 
-  background-color: white;
-  border: 1px solid black;
+  background-color: black;
+  border: 1px solid white;
   border-radius: 1vw;
 }
 
@@ -421,7 +421,7 @@
   width: 45vw;
   height: 45vw;
 
-  color: black; 
+  color: white; 
   text-align: left;
   
   font-size: 4vw;
@@ -429,8 +429,8 @@
   padding-left: 1vw;
   padding-right: 1vw;
 
-  background-color: white;
-  border: 1px solid black;
+  background-color: black;
+  border: 1px solid white;
   border-radius: 1vw;
 }
 
@@ -443,7 +443,7 @@
   width: 93vw;
   height: 20vw;
 
-  color: black; 
+  color: white; 
   text-align: center;
   
   font-size: 6vw;
@@ -451,7 +451,7 @@
   padding-left: 1vw;
   padding-right: 1vw;
 
-  background-color: white;
+  background-color: black;
   border: 1px solid black;
   border-radius: 1vw;
 }

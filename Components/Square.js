@@ -10,20 +10,19 @@ function Square() {
 
    <div className={styles.squareBox}>
     <div className={styles.square1}>
-      <p>Non-Partisan Alliance</p>
-        <ul>
-        <li>non-profit</li> 
-        <li>registered in Delaware</li> 
-        <li>operates in U.S.A.</li>
-        </ul>
+      <p>Non-Partisan<br /> Alliance Inc.</p>
+        
+        <p>non-profit organization<br />
+        registered in State of Delaware<br /> 
+        operates exclusively in U.S.A.
+        </p>
     </div>
     <div className={styles.square2}>
     <p>We are establishing...</p>
-      <ul>
-        <li>a clean, professional</li>
-        <li>political discussion</li>
-        <li>online forum</li>
-        </ul>
+      
+        <p>a clean, professional<br />
+        political discussion<br />
+        online forum</p>
         </div>
     
         <div className={styles.square3}>
