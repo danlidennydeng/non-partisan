@@ -144,7 +144,7 @@
   /* height: calc(100vw * 0.4287); */
   /* background-color: peachpuff;  */
   background-color: black;
-  border: 0.5vw solid white;
+  border: 0.5vw 0.5vw 0.5vw 0vw solid white;
   overflow: hidden;
 
   /* background-image: url("../public/texture.png");
@@ -364,7 +364,8 @@
 
   width: 20vw;
   height: 8vw;
-  color: purple;
+  color: white;
+  -webkit-text-stroke: 0.1vw purple;
   text-align: left;
   vertical-align: text-bottom;
 
