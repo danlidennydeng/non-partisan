@@ -483,9 +483,58 @@
   /* border: 0.5vw solid black; */
 }
 
+.avatar1 {
+  background-image: url("../public/img1.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+
+  float: left;
+  /* shape-outside: circle(50%); */
+  clip-path: circle(50%);
+
+  width: 10vw;
+  height: 10vw;
+}
+
+.avatar2 {
+  background-image: url("../public/img2.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+
+  float: left;
+  /* shape-outside: circle(50%); */
+  clip-path: circle(50%);
+
+  width: 10vw;
+  height: 10vw;
+}
+
+.avatar3 {
+  background-image: url("../public/img3.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+
+  float: left;
+  /* shape-outside: circle(50%); */
+  clip-path: circle(50%);
+
+  width: 10vw;
+  height: 10vw;
+}
+.name {
+  font-size: 2.2vw;
+  font-weight: bold;
+  color: purple;
+}
 .t1 {
   position: relative;
   margin: 0;
+  
+
+  shape-outside: circle(50%);
   
   top: 1vw;
   left: 1vw;
@@ -495,7 +544,7 @@
   color: black; 
   text-align: center;
   
-  font-size: 2.5vw;
+  font-size: 2vw;
   padding-top: 1vw;
   padding-left: 1vw;
   padding-right: 1vw;
@@ -519,8 +568,8 @@
   color: black; 
   text-align: center;
   
-  font-size: 2.5vw;
-  padding-top: 8vw;
+  font-size: 2vw;
+  padding-top: 1vw;
   padding-left: 1vw;
   padding-right: 1vw;
 
@@ -542,12 +591,32 @@
   color: black; 
   text-align: center;
   
-  font-size: 2.5vw;
-  padding-top: 10vw;
+  font-size: 2vw;
+  padding-top: 1vw;
   padding-left: 1vw;
   padding-right: 1vw;
 
   background-color: white;
+  border: .5vw solid black;
+  border-radius: 1vw;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.flexcontainer > div {
+  background-color: white;
+  margin: 1vw;
+  
+  width: 22vw;
+  height: 22vw;
+
+  text-align: center;
+  font-size: 2vw;
+  
   border: .5vw solid black;
   border-radius: 1vw;
 }
