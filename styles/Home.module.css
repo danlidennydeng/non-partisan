@@ -692,11 +692,12 @@
 .flexcontainer > div {
   background-color: white;
   margin: 1vw;
+  padding: 1vw;
   
   width: 30vw;
   height: 30vw;
 
-  text-align: center;
+  text-align: left;
   font-size: 2vw;
   
   border: .5vw solid black;

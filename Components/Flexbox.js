@@ -11,23 +11,23 @@ function Flexbox() {
    <div className={styles.flexcontainer}>
     
     <div><div className={styles.avatar1}></div>
-      <p><span className={styles.name}>Kevin M.</span></p>I did not know that I have been using Artifical Intelligent-manuipulated online platform for discussing serious political issues, until I have found what Non-Partisan Alliance Inc. is building.
+      <p><span className={styles.name}>Kevin M.</span></p>I did not know that I have been using Artifical Intelligent-manuipulated online platform for discussing serious political issues, until I have found what NPA is building.
     </div>
     
     <div><div className={styles.avatar2}></div>
-      <p><span className={styles.name}>Kevin M.</span></p>We must combat political polarization in America!</div>
+      <p><span className={styles.name}>Donald L.</span></p>It is ok to diversify, but it is not ok to extremize. We must combat political polarization in America...</div>
     
     <div><div className={styles.avatar3}></div>
-      <p><span className={styles.name}>Kevin M.</span></p>Non-Partisan Alliance Inc. taught me the importance of embracing diversity while avoiding extremism. Their commitment to fostering a balanced dialogue has helped me gain a deeper understanding of complex issues facing our nation.</div>
+      <p><span className={styles.name}>Emma A.</span></p>I've shifted my focus from celebrity-driven politics to the real issues that impact our lives. NPA has empowered me to stay informed and engaged in discussions that truly matter."</div>
     
     <div><div className={styles.avatar4}></div>
-      <p><span className={styles.name}>Kevin M.</span></p>Non-Partisan Alliance Inc. taught me the importance of embracing diversity while avoiding extremism. Their commitment to fostering a balanced dialogue has helped me gain a deeper understanding of complex issues facing our nation.</div>
+      <p><span className={styles.name}>Jean B.</span></p>"I am learning to approach political issues with an open mind. NPA has helped me understand different perspectives and find common ground."</div>
 
     <div><div className={styles.avatar5}></div>
-      <p><span className={styles.name}>Kevin M.</span></p>Non-Partisan Alliance Inc. taught me the importance of embracing diversity while avoiding extremism. Their commitment to fostering a balanced dialogue has helped me gain a deeper understanding of complex issues facing our nation.</div>
+      <p><span className={styles.name}>Sarah T.</span></p>"I appreciate NPA for promoting freedom of speech without resorting to personal attacks. They've created a space where individuals from all political backgrounds can express their views."</div>
 
     <div><div className={styles.avatar6}></div>
-      <p><span className={styles.name}>Kevin M.</span></p>Non-Partisan Alliance Inc. taught me the importance of embracing diversity while avoiding extremism. Their commitment to fostering a balanced dialogue has helped me gain a deeper understanding of complex issues facing our nation.</div>
+      <p><span className={styles.name}>Emily R.</span></p>"Non-Partisan Alliance Inc. gave me hope. Through their efforts, they're bridging divides and fostering respectful dialogue. Together, we can create a stronger democracy."</div>
     
    </div>
    
