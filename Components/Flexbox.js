@@ -24,10 +24,10 @@ function Flexbox() {
       <p><span className={styles.name}>Jean B.</span></p>"I am learning to approach political issues with an open mind. NPA has helped me understand different perspectives and find common ground."</div>
 
     <div><div className={styles.avatar5}></div>
-      <p><span className={styles.name}>Sarah T.</span></p>"I appreciate NPA for promoting freedom of speech without resorting to personal attacks. They've created a space where individuals from all political backgrounds can express their views."</div>
+      <p><span className={styles.name}>Sarah T.</span></p>"I appreciate NPA for promoting freedom of speech without resorting to personal attacks. I wish a neutral online platform was available sooner."</div>
 
     <div><div className={styles.avatar6}></div>
-      <p><span className={styles.name}>Emily R.</span></p>"Non-Partisan Alliance Inc. gave me hope. Through their efforts, they're bridging divides and fostering respectful dialogue. Together, we can create a stronger democracy."</div>
+      <p><span className={styles.name}>Emily R.</span></p>"NPA gave me hope. Through their efforts, they're bridging divides and fostering respectful dialogue. Together, we can create a stronger democracy."</div>
     
    </div>
    

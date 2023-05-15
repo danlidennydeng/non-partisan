@@ -441,6 +441,12 @@
   border-radius: 1vw;
 }
 
+.npa {
+  font-size: 5vw;
+  color: white;
+  -webkit-text-stroke: 0.3vw purple;
+}
+
 .square3 {
   position: relative;
   margin: auto;
@@ -467,11 +473,10 @@
   color: white;
   -webkit-text-stroke: 0.5vw purple;
 }
+
 .joinText:hover {
   color: purple;
-  
 }
-
 .emailText {
   font-size: 3vw;
 }
@@ -491,24 +496,27 @@
   background-size: cover;
 }
 
-.testimonialsBox {
-  position: static;
-  margin: 0;
-  width: 100vw;
-  height: 33vw;
-  /* height: 100vh; */
+.flexcontainer {
+  display: flex;
+  flex-wrap: wrap;
   background-color: white;
-  /* border: 0.5vw solid black; */
 }
-.testimonialsBox2 {
-  position: static;
-  margin: 0;
-  width: 100vw;
-  height: 33vw;
-  /* height: 100vh; */
+
+.flexcontainer > div {
   background-color: white;
-  /* border: 0.5vw solid black; */
+  margin: 1vw;
+  padding: 1vw;
+  
+  width: 30vw;
+  height: 30vw;
+
+  text-align: left;
+  font-size: 2vw;
+  
+  border: .5vw solid black;
+  border-radius: 1vw;
 }
+
 .avatar1 {
   background-image: url("../public/img1.jpg");
   background-repeat: no-repeat;
@@ -610,98 +618,6 @@
   font-size: 2.2vw;
   font-weight: bold;
   color: purple;
-}
-.t1 {
-  position: relative;
-  margin: 0;
-  
-
-  shape-outside: circle(50%);
-  
-  top: 1vw;
-  left: 1vw;
-  width: 30vw;
-  height: 30vw;
-
-  color: black; 
-  text-align: center;
-  
-  font-size: 2vw;
-  padding-top: 1vw;
-  padding-left: 1vw;
-  padding-right: 1vw;
-
-  background-color: white;
-  border: .5vw solid black;
-  border-radius: 1vw;
-}
-
-
-.t2 {
-  position: relative;
-  margin: 0;
-
-  top: -29vw;
-  left: 34vw;
-
-  width: 30vw;
-  height: 30vw;
-
-  color: black; 
-  text-align: center;
-  
-  font-size: 2vw;
-  padding-top: 1vw;
-  padding-left: 1vw;
-  padding-right: 1vw;
-
-  background-color: white;
-  border: .5vw solid black;
-  border-radius: 1vw;
-}
-
-.t3 {
-  position: relative;
-  margin: 0;
-
-  top: -59vw;
-  left: 67vw;
-
-  width: 30vw;
-  height: 30vw;
-
-  color: black; 
-  text-align: center;
-  
-  font-size: 2vw;
-  padding-top: 1vw;
-  padding-left: 1vw;
-  padding-right: 1vw;
-
-  background-color: white;
-  border: .5vw solid black;
-  border-radius: 1vw;
-}
-
-.flexcontainer {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: white;
-}
-
-.flexcontainer > div {
-  background-color: white;
-  margin: 1vw;
-  padding: 1vw;
-  
-  width: 30vw;
-  height: 30vw;
-
-  text-align: left;
-  font-size: 2vw;
-  
-  border: .5vw solid black;
-  border-radius: 1vw;
 }
 
 .videoBox {

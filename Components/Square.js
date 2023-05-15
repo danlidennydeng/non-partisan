@@ -20,9 +20,9 @@ function Square() {
       
     </div>
     <div className={styles.square2}>
-    <p>We are establishing...</p>
+    <p><span className={styles.npa}>NPA</span></p>
       
-        <p>a clean, professional<br />
+        <p>establishing a clean, professional<br />
         political discussion<br />
         online forum</p>
         </div>
