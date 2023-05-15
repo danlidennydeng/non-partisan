@@ -12,7 +12,7 @@ export default function Index2() {
     <div>
       <div><Snake /></div>
       <div><Square /></div>
-      {/* <div><Flexbox /></div> */}
+      <div><Flexbox /></div>
       <div><Testimonials /></div>
       <div><Testimonials2 /></div>
       <div><Benjamin /></div>

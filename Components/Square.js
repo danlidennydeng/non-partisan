@@ -29,7 +29,7 @@ function Square() {
     
         <div className={styles.square3}>
           <span className={styles.joinText}>Join</span> or ...<br />
-          <span className={styles.emailText}>support@non-partisan.online</span>
+          <span className={styles.emailText}>support<div className={styles.smallLogo}></div>non-partisan.online</span>
         </div>
    </div>
     
