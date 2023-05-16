@@ -165,6 +165,9 @@
   background-size: 35.92vw 15.78vw;
   z-index: 11;
   overflow: hidden;
+
+  cursor: -webkit-grabbing; 
+  cursor: grabbing;
 }
 
 
@@ -176,29 +179,35 @@
   width: 7.87vw;
   height: 17.47vw;
   /* border: 1px solid #73AD21; */
-  background-image: url("../public/snake2.png");
+  background-image: url("../public/snake2.svg");
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 7.87vw 17.47vw;
   z-index: 12;
   overflow: hidden;
+
+  cursor: -webkit-grabbing; 
+  cursor: grabbing;
 }
 
 
 .snake3 {
 
   position: relative;
-  top: -1vw;
+  top: -10vw;
   left: 50vw;
   width: 14.66vw;
   height: 11.80vw;
   /* border: 1px solid #73AD21; */
-  background-image: url("../public/snake3.png");
+  background-image: url("../public/snake3.svg");
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 14.66vw 11.80vw;
   z-index: 13;
   overflow: hidden;
+
+  cursor: -webkit-grabbing; 
+  cursor: grabbing;
 }
 
 .snake4 {
@@ -209,12 +218,15 @@
   width: 21.82vw;
   height: 15.97vw;
   /* border: 1px solid #73AD21; */
-  background-image: url("../public/snake4.png");
+  background-image: url("../public/snake4.svg");
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 21.82vw 15.97vw;
   z-index: 14;
   overflow: hidden;
+
+  cursor: -webkit-grabbing; 
+  cursor: grabbing;
 }
 
 
@@ -226,12 +238,15 @@
   width: 14.89vw;
   height: 15.97vw;
   /* border: 1px solid #73AD21; */
-  background-image: url("../public/snake5.png");
+  background-image: url("../public/snake5.svg");
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 14.89vw 15.97vw;
   z-index: 15;
   overflow: hidden;
+
+  cursor: -webkit-grabbing; 
+  cursor: grabbing;
 }
 
 .snake6 {
@@ -241,48 +256,55 @@
   width: 19.81vw;
   height: 13.67vw;
   /* border: 1px solid bisque; */
-  background-image: url("../public/snake6.png");
+  background-image: url("../public/snake6.svg");
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 19.81vw 13.67vw;
   z-index: 16;
   overflow: hidden;
+
+  cursor: -webkit-grabbing; 
+  cursor: grabbing;
 }
 
 
 .snake7 {
 
   position: relative;
-  top: -56vw;
+  top: -66vw;
   left: -1vw;
   width: 12.69vw;
   height: 10.16vw;
   /* border: 1px solid #73AD21; */
-  background-image: url("../public/snake7.png");
+  background-image: url("../public/snake7.svg");
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 12.69vw 10.16vw;
   z-index: 17;
   overflow: hidden;
+
+  cursor: -webkit-grabbing; 
+  cursor: grabbing;
 }
 
 
 .snake8 {
 
   position: relative;
-  top: -105vw;
-  left: 45vw;
+  top: -125vw;
+  left: 75vw;
   width: 8.43vw;
   height: 24.49vw;
   /* border: 1px solid #73AD21; */
-  background-image: url("../public/snake8.png");
+  background-image: url("../public/snake8.svg");
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 8.43vw 24.49vw;
   z-index: 18;
   overflow: hidden;
 
-  
+  cursor: -webkit-grabbing; 
+  cursor: grabbing;
 }
 
 .instructionBox {
@@ -296,7 +318,7 @@
   width: 16vw;
   height: 31vw;
 
-  background-image: url("../public/iphone-frame.svg");
+  background-image: url("../public/iphone-w.svg");
   background-repeat: no-repeat;
   background-position: right top;
   background-size: cover;
@@ -322,6 +344,23 @@
     BeGone 1s 17s forwards;
 }
 
+.snakeAvatar {
+  background-image: url("../public/snake1.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: auto;
+
+  float: left;
+  /* shape-outside: circle(50%); */
+  clip-path: circle(50%);
+  
+  border-radius: 50%;
+  border: .1vw solid white;
+
+  width: 4vw;
+  height: 4vw;
+  margin: 1vw;
+}
 @keyframes rotation {
   0% {
     transform: rotate(0deg);

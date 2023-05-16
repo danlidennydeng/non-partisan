@@ -9,8 +9,9 @@ function Instruction() {
     
 
    <div className={styles.instructionBox}>
-    <p>Our snake is broken. Can you drag up each piece and put them back togather?</p>
-    {/* <p>This instruction box will fade away automatically in 20 seconds</p> */}
+    <div className={styles.snakeAvatar}></div>
+    <p>Please drag me, join me, and revive me! @Fellow Americans</p>
+    
    </div>
     
   )
