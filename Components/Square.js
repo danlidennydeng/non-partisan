@@ -16,8 +16,8 @@ function Square() {
         <Logo />
       </div>
         
-        registered in State of Delaware<br /> 
-        operates exclusively in U.S.A.
+        <p className={styles.textPosition}>NPA is registered in the State of Delaware,<br /> 
+        operates exclusively in U.S.A.</p>
       
     </div>
 

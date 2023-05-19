@@ -443,7 +443,8 @@
 
   color: white; 
   text-align: left;
-  
+  vertical-align: super;
+
   font-size: 4vw;
   padding-top: 0vw;
   padding-left: 3vw;
@@ -453,7 +454,11 @@
   border: 0.5vw solid white;
   border-radius: 1vw;
 }
+.textPosition {
+  position: relative;
 
+  top: -13vw;
+}
 .logoPosition {
   position: relative;
 
@@ -483,7 +488,7 @@
 }
 
 .npa {
-  font-size: 5vw;
+  font-size: 4.7vw;
   color: white;
   -webkit-text-stroke: 0.3vw purple;
 }
@@ -517,6 +522,7 @@
 
 .joinText:hover {
   color: purple;
+  -webkit-color: purple;
 }
 .emailText {
   font-size: 3vw;
