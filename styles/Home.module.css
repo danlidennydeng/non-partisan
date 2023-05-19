@@ -704,21 +704,19 @@
 .speechBox {
   position: static;
   display: block;
-  margin: auto;
+  /* margin: auto; */
   
   
   width: 100vw;
 
   background-color: black;
 
-  border: .5vw solid red;
+  /* border: .5vw solid red; */
 }
 
 .speechBox > div {
-  margin: auto;
-  
-  padding-bottom: 1vw;
 
+  padding: 1vw;
   color: white;
   font-size: 1.5vw;
 
@@ -726,14 +724,14 @@
   width: 100vw;
   height: 15vw;
 
-  top: 1vw;
-  border: 1vw solid white;
 }
 
 /*  footer */
 
 .footerWave {
-  position: relative;
+  position: static;
+  /* top: 2vw; */
+
   width: 100vw;
   background: #ff00ff;
   min-height: 10vw;
