@@ -11,6 +11,8 @@ body {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
+
+  
 }
 
 a {
@@ -31,4 +33,3 @@ a {
     background: black;
   }
 }
-

@@ -129,6 +129,9 @@
 }
 
 
+
+/* red and blue blending = rgb(255, 0, 255) #ff00ff */
+
 /* Snake.js component below */
 
 .snakeBox {
@@ -138,17 +141,11 @@
   top: 1vw;
   padding: 1vw;
 
-  width: 100vw;
-  height: 56.25vw;
-  /* height: calc(100vw * 0.5625); */
-  /* height: calc(100vw * 0.4287); */
-  /* background-color: peachpuff;  */
+  aspect-ratio: 16/9;
+  
   background-color: black;
-  border: 0.5vw 0.5vw 0.5vw 0vw solid white;
+  /* border: 0.5vw solid white; */
   overflow: hidden;
-
-  /* background-image: url("../public/texture.png");
-  background-repeat: repeat; */
 }
 
 .snake1 {
@@ -421,13 +418,18 @@
 
 .squareBox {
   position: static;
-  margin: 0;
-  width: 100vw;
+  margin: auto;
+/* 
+  width: 100%;
+  height: 85%; */
+  width: 100vw; 
   height: 85vw;
-  /* height: 100vh; */
+
+  
+  /* aspect-ratio: 16/10; why doesn't this work? */
 
   background-color: black;
-  border: 0.5vw solid black;
+  /* border: 0.5vw solid black; */
 }
 
 .square1 {
@@ -493,7 +495,7 @@
   top: -40vw;
   left: 0vw;
   width: 93vw;
-  height: 20vw;
+  height: 30vw;
 
   color: white; 
   text-align: center;
@@ -504,8 +506,8 @@
   padding-right: 1vw;
 
   background-color: black;
-  border: 0.5vw solid black;
-  border-radius: 1vw;
+  /* border: 0.5vw solid black;
+  border-radius: 1vw; */
 }
 
 .joinText {
@@ -518,6 +520,7 @@
 }
 .emailText {
   font-size: 3vw;
+  /* border: .5vw solid black; */
 }
 
 .smallLogo {
@@ -535,16 +538,22 @@
   background-size: cover;
 }
 
+/* Testimonials flex-box */
+
 .flexcontainer {
   display: flex;
   flex-wrap: wrap;
+  /* width: 100vw; */
   background-color: white;
 }
 
 .flexcontainer > div {
+  color: black;
   background-color: white;
+  
   margin: 1vw;
   padding: 1vw;
+  justify-content: center;
   
   width: 30vw;
   height: 30vw;
@@ -664,11 +673,13 @@
   display: block;
   margin: auto;
   
-  
-  width: 100vw;  
+  width: 100%;
+  aspect-ratio: 16/9;
+  /* width: 100vw;   */
 
-  border: solid 4px black;
-  background-color: antiquewhite;
+  /* border: .5vw solid black; */
+
+  background-color: black;
 }
 
 /* @media only screen and (max-width: 600px) {
@@ -679,3 +690,51 @@
     height: 100vw;
   } 
 } */
+
+.speechBox {
+  position: static;
+  display: block;
+  margin: auto;
+  
+  
+  width: 100vw;
+
+  background-color: black;
+}
+
+.speechBox > div {
+  margin: auto;
+  
+  padding: 1vw;
+  color: white;
+  font-size: 1.5vw;
+
+  background-color: black;
+  width: 100vw;
+  height: 15vw;
+
+  top: 2vw;
+
+}
+
+/*  footer */
+
+.footerWave {
+  position: relative;
+  width: 100%;
+  background: #ff00ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.footerWave p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}

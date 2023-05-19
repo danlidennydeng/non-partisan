@@ -18,7 +18,7 @@ function Flexbox() {
       <p><span className={styles.name}>Donald L.</span></p>It is ok to diversify, but it is not ok to extremize. We must combat political polarization in America...</div>
     
     <div><div className={styles.avatar3}></div>
-      <p><span className={styles.name}>Emma A.</span></p>I've shifted my focus from celebrity-driven politics to the real issues that impact our lives. NPA has empowered me to stay informed and engaged in discussions that truly matter."</div>
+      <p><span className={styles.name}>Emma A.</span></p>I've shifted my focus from celebrity-driven politics to the real issues that impact our lives. Thanks to NPA's platform!"</div>
     
     <div><div className={styles.avatar4}></div>
       <p><span className={styles.name}>Jean B.</span></p>"I am learning to approach political issues with an open mind. NPA has helped me understand different perspectives and find common ground."</div>

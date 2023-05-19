@@ -10,6 +10,7 @@ function Square() {
     
 
    <div className={styles.squareBox}>
+    
     <div className={styles.square1}>
       <div className={styles.logoPosition}>
         <Logo />
@@ -19,18 +20,20 @@ function Square() {
         operates exclusively in U.S.A.
       
     </div>
+
     <div className={styles.square2}>
-    <p><span className={styles.npa}>NPA</span></p>
+      <p><span className={styles.npa}>NPA</span></p>
       
-        <p>establishing a clean, professional<br />
+      <p>establishing a clean, professional<br />
         political discussion<br />
         online forum</p>
-        </div>
+    </div>
     
-        <div className={styles.square3}>
-          <span className={styles.joinText}>Join</span> or ...<br />
-          <span className={styles.emailText}>support<div className={styles.smallLogo}></div>non-partisan.online</span>
-        </div>
+    <div className={styles.square3}>
+        <span className={styles.joinText}>Join</span> or ...<br />
+        <span className={styles.emailText}>support<div className={styles.smallLogo}></div>non-partisan.online</span>
+    </div>
+
    </div>
     
   )
