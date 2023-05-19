@@ -21,13 +21,13 @@ export default function Index() {
       <div><Benjamin /></div>
       <div><Speech /></div>
     
-      <div>
+      
         <footer className={styles.footerWave}>
       
           <p>&copy;2023 Non-Partisan Alliance Inc. | All Rights Reserved</p>
           
         </footer>
-      </div>
+      
      
     </div>
       </>

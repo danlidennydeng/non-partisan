@@ -711,8 +711,8 @@
 /*  footer */
 
 .footerWave {
-  position: static;
-  /* top: 2vw; */
+  position: relative;
+  top: 2vw;
 
   width: 100vw;
   background: #ff00ff;
@@ -722,7 +722,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
+  border: 1vw solid red;
 }
 
 .footerWave p {
