@@ -347,7 +347,7 @@
   background-position: right top;
   background-size: auto;
 
-  float: left;
+  /* float: left; */
   /* shape-outside: circle(50%); */
   clip-path: circle(50%);
   
@@ -358,7 +358,11 @@
   height: 4vw;
   margin: 1vw;
 }
-@keyframes rotation {
+.snakeText {
+  position: relative;
+  top: -2vw;
+}
+/* @keyframes rotation {
   0% {
     transform: rotate(0deg);
   }
@@ -379,7 +383,7 @@
     display: none;
     z-index: -1;
   }
-}
+} */
 
 
 .logoBox {
@@ -727,10 +731,10 @@
 
 .footerWave {
   position: relative;
-  width: 100%;
+  width: 100vw;
   background: #ff00ff;
-  min-height: 100px;
-  padding: 20px 50px;
+  min-height: 10vw;
+  padding: 2vw 1vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -740,7 +744,7 @@
 
 .footerWave p {
   color: #fff;
-  margin: 15px 0 10px 0;
-  font-size: 1rem;
-  font-weight: 300;
+  margin: 1vw 0 1vw 0;
+  font-size: 2vw;
+  font-weight: bold;
 }
