@@ -10,7 +10,7 @@ import Speech from '../Components/Speech'
 
 import styles from '../styles/Home.module.css'
 
-export default function Index2() {
+export default function Index() {
   return (
     <>
     <div>

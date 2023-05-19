@@ -326,14 +326,9 @@
 
   background: white 0.9;
   border-radius: 1vw;
-
-  /* -webkit-box-shadow:18px 15px 27px 10px rgba(255,189,243,0.8);
-  -moz-box-shadow: 18px 15px 27px 10px rgba(255,189,243,0.8);
-  box-shadow: 18px 15px 27px 10px rgba(255,189,243,0.8); */
   
   backdrop-filter: blur(4.3px);
-  /* -webkit-backdrop-filter: blur(4.3px); */
-  /* border: 0.5vw solid black; */
+  
   z-index: 29;
   
   animation: 
@@ -347,8 +342,6 @@
   background-position: right top;
   background-size: auto;
 
-  /* float: left; */
-  /* shape-outside: circle(50%); */
   clip-path: circle(50%);
   
   border-radius: 50%;
@@ -423,9 +416,7 @@
 .squareBox {
   position: static;
   margin: auto;
-/* 
-  width: 100%;
-  height: 85%; */
+
   width: 100vw; 
   height: 85vw;
 
@@ -691,15 +682,6 @@
 
   background-color: black;
 }
-
-/* @media only screen and (max-width: 600px) {
-  .testimonialBox > div {
-    margin: 1.2vw;
-    background-color: white;
-    width: 100vw;
-    height: 100vw;
-  } 
-} */
 
 .speechBox {
   position: static;
