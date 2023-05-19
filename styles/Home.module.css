@@ -362,7 +362,7 @@
   position: relative;
   top: -2vw;
 }
-/* @keyframes rotation {
+@keyframes rotation {
   0% {
     transform: rotate(0deg);
   }
@@ -383,7 +383,7 @@
     display: none;
     z-index: -1;
   }
-} */
+}
 
 
 .logoBox {
@@ -710,12 +710,15 @@
   width: 100vw;
 
   background-color: black;
+
+  border: .5vw solid red;
 }
 
 .speechBox > div {
   margin: auto;
   
-  padding: 1vw;
+  padding-bottom: 1vw;
+
   color: white;
   font-size: 1.5vw;
 
@@ -723,8 +726,8 @@
   width: 100vw;
   height: 15vw;
 
-  top: 2vw;
-
+  top: 1vw;
+  border: 1vw solid white;
 }
 
 /*  footer */
