@@ -3,6 +3,8 @@ import React from 'react';
 import styles from '../styles/Home.module.css';
 import Logo from '../Components/Logo';
 
+import Link from 'next/link';
+
 function Square() {
 
 
@@ -30,8 +32,9 @@ function Square() {
     </div>
     
     <div className={styles.square3}>
-        <span className={styles.joinText}>Join</span> or ...<br />
-        <span className={styles.emailText}>support<div className={styles.smallLogo}></div>non-partisan.online</span>
+
+        <Link href="#volunteer"><span className={styles.joinText}>Join</span></Link> or ...<br />
+        <span className={styles.emailText}>coreteam<div className={styles.smallLogo}></div>non-partisan.online</span>
     </div>
 
    </div>

@@ -130,7 +130,7 @@
 
 
 
-/* red and blue blending = rgb(255, 0, 255) #ff00ff */
+/* red and blue blending = rgb(255, 0, 255) #ff00ff, secondary color: 90% purple #ffccff */
 
 /* Snake.js component below */
 
@@ -518,8 +518,10 @@
 .joinText:hover {
   color: purple;
   -webkit-color: purple;
+  cursor: pointer;
 }
 .emailText {
+  color: #ffccff;
   font-size: 3vw;
   /* border: .5vw solid black; */
 }
@@ -545,6 +547,7 @@
   display: flex;
   flex-wrap: wrap;
   /* width: 100vw; */
+  justify-content: center;
   background-color: white;
 }
 
@@ -708,6 +711,44 @@
 
 }
 
+.volunteerBox {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 100vw; */
+  justify-content: center;
+  background-color: white;
+}
+
+.volunteerBox > div {
+  color: black;
+  background-color: white;
+  
+  margin: 1vw;
+  padding: 1vw;
+  justify-content: center;
+  
+  width: 46vw;
+  height: 46vw;
+
+  text-align: left;
+  font-size: 2vw;
+  
+  border: .5vw solid black;
+  border-radius: 1vw;
+}
+.jobs {
+  font-weight: bold;
+}
+.emailTextSmall {
+  color: #ff00ff;
+  font-size: 2vw;
+  /* border: .5vw solid black; */
+
+}
+.paypal {
+  width: 25%;
+  height: 12%;
+}
 /*  footer */
 
 .footerWave {
@@ -730,4 +771,5 @@
   margin: 1vw 0 1vw 0;
   font-size: 2vw;
   font-weight: bold;
+
 }

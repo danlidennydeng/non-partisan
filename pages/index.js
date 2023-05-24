@@ -9,6 +9,7 @@ import Flexbox from '../Components/Flexbox'
 import Speech from '../Components/Speech'
 
 import styles from '../styles/Home.module.css'
+import Volunteer from '../Components/Volunteer'
 
 export default function Index() {
   return (
@@ -20,7 +21,7 @@ export default function Index() {
      
       <div><Benjamin /></div>
       <div><Speech /></div>
-    
+      <div><Volunteer /></div>
       
         <footer className={styles.footerWave}>
       
