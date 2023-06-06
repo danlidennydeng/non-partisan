@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
 
       <meta property="og:title" content="Non-Partisan Alliance Inc. (NPA) - a political discussion online forum" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="" />
+      <meta property="og:image" content="https://s3-danlideng-ohio.s3.us-east-2.amazonaws.com/public/benjamine-video-og-c.png" />
       <meta property="og:url" content="https://www.non-partisan.online" />
 
       <link rel="icon" href="/favicon.ico" />

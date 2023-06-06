@@ -717,6 +717,8 @@
   /* width: 100vw; */
   justify-content: center;
   background-color: white;
+  margin-top: 5vw;
+  /* top: 5vw; */
 }
 
 .volunteerBox > div {
@@ -753,7 +755,7 @@
 
 .footerWave {
   position: relative;
-  top: 5vw;
+  /* top: 5vw; */
 
   width: 100vw;
   background: #ff00ff;

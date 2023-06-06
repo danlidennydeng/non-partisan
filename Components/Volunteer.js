@@ -20,7 +20,7 @@ function Volunteer() {
       <p></p>
       <div className={styles.jobs}>Fund Raising Manager</div>
       <p></p>
-      <div>Please email your resume to:<br /> <span className={styles.emailTextSmall}>coreteam<div className={styles.smallLogo}></div>non-partisan.online</span></div>
+      <div>Please email your resume to:<br /> <span className={styles.emailTextSmall}>support<div className={styles.smallLogo}></div>non-partisan.online</span></div>
     </div>
     
     <div>
