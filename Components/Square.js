@@ -34,7 +34,7 @@ function Square() {
     <div className={styles.square3}>
 
         <Link href="#volunteer"><span className={styles.joinText}>Join</span></Link> or ...<br />
-        <span className={styles.emailText}>coreteam<div className={styles.smallLogo}></div>non-partisan.online</span>
+        <span className={styles.emailText}>support<div className={styles.smallLogo}></div>non-partisan.online</span>
     </div>
 
    </div>
